@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Landing Page</title>
+  <link rel="stylesheet" href="static/style/style.css">
+  <link rel="stylesheet" href="static/fonts-icon/fontawesome-free-6.5.1-web/css/all.css">
+</head>
+
+<body>
+  <div class="dynamic_bg_img">
+    <img src="" alt="" class="bg_img">
+  </div>
+
+  <!-- start aside -->
+  <aside class="main_aside">
+    <div class="settings_container">
+      <button class="settings_button">
+        <i class="fa fa-gear settings_icon"></i>
+      </button>
+      <h1 class="settings_title">Settings:-</h1>
+      <div class="settings_box">
+        <div class="settings_clr">
+          <h2 class="clr_title">Colors:</h2>
+          <ul class="clr_list">
+            <li class="clr_item"><button class="item item_active" data-color="orange" style="--clr: orange;"></button>
+            </li>
+            <li class="clr_item"><button class="item" data-color="red" style="--clr: red;"></button></li>
+            <li class="clr_item"><button class="item" data-color="green" style="--clr: green;"></button></li>
+            <li class="clr_item"><button class="item" data-color="blue" style="--clr: blue;"></button></li>
+            <li class="clr_item"><button class="item" data-color="pink" style="--clr: pink;"></button></li>
+          </ul>
+        </div>
+        <div class="settings_img">
+          <h2 class="img_title">Random Background:</h2>
+          <input type="checkbox" class="img_check check">
+        </div>
+        <div class="settings_bullets">
+          <h2 class="bullets_title">Side Nav:</h2>
+          <input type="checkbox" class="bullets_check check">
+        </div>
+      </div>
+      <div class="reset_box">
+        <button class="settings_reset">Reset Settings</button>
+      </div>
+    </div>
+  </aside>
+  <!-- end aside -->
+
+  <!-- start bullets aside -->
+  <aside class="bullets_aside active_bullets_aside">
+    <div class="bullets_container"></div>
+  </aside>
+  <!-- end nav aside -->
+
+  <!-- start popup gallery box -->
+  <div class="popup_gallery_box">
+    <button class="popup_button">
+      <i class="fa-solid fa-xmark popup_icon"></i>
+    </button>
+    <img class="popup_img" src="" alt="">
+  </div>
+  <!-- end popup gallery box -->
+
+  <!-- start header -->
+  <header class="main_header">
+    <div class="container">
+      <div class="logo">
+        <a href="index.html" class="a_logo">
+          <img src="static/image/logo.png" alt="Logo" class="img_logo">
+        </a>
+      </div>
+      <nav class="nav_list">
+        <ul class="ul_list"></ul>
+        <div class="toggle_box">
+          <button class="toggle_button">
+            <i class="fa-solid fa-bars toggle_icon"></i>
+          </button>
+        </div>
+      </nav>
+    </div>
+  </header>
+  <!-- end header -->
+
+  <!-- start main -->
+  <main class="main_main">
+    <section class="welcome">
+      <div class="container">
+        <div class="welcome_box">
+          <h1 class="welc_title">We Are <span class="title_clr">Creative</span> Agency</h1>
+          <p class="welc_parag">L</p>
+        </div>
+      </div>
+    </section>
+    <section class="about_us section" id="about__us" data-title="About">
+      <div class="container">
+        <article class="about_info">
+          <h2 class="about_title">About Us</h2>
+          <p class="about_parag">Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, et nemo vero
+            molestias quibusdam odit aperiam, delectus enim quidem totam ex, asperiores reprehenderit corrupti vitae
+            aliquam magni quasi iste dolor.</p>
+        </article>
+        <img class="about_img" src="static/image/about-us-img.png" alt="">
+      </div>
+    </section>
+    <section class="our_skills section important_section" id="our__skills" data-title="Skills">
+      <div class="container">
+        <img class="skills_img" src="static/image/our-skills-img.png" alt="">
+        <article class="skills_info">
+          <h2 class="skills_title">Our Skills</h2>
+          <ul class="progress_list">
+            <li class="progress_item">
+              <h3 class="progress_title">HTML</h3>
+              <div class="item">
+                <span class="percentage" style="--width: 70%;" data-width="70%"></span>
+              </div>
+            </li>
+            <li class="progress_item">
+              <h3 class="progress_title">CSS</h3>
+              <div class="item">
+                <span class="percentage" style="--width: 90%;" data-width="90%"></span>
+              </div>
+            </li>
+            <li class="progress_item">
+              <h3 class="progress_title">JS</h3>
+              <div class="item">
+                <span class="percentage" style="--width: 50%;" data-width="50%"></span>
+              </div>
+            </li>
+            <li class="progress_item">
+              <h3 class="progress_title">PHP</h3>
+              <div class="item">
+                <span class="percentage" style="--width: 20%;" data-width="20%"></span>
+              </div>
+            </li>
+          </ul>
+        </article>
+      </div>
+    </section>
+    <section class="gallery section" id="gallery" data-title="Gallery">
+      <div class="container">
+        <h2 class="gallery_title">Our Gallery</h2>
+        <article class="gallery_box">
+          <img class="gallery_img" src="static/image/our-gallery-img1.jpg" alt="">
+          <img class="gallery_img" src="static/image/our-gallery-img2.jpg" alt="">
+          <img class="gallery_img" src="static/image/our-gallery-img3.jpg" alt="">
+          <img class="gallery_img" src="static/image/our-gallery-img4.jpg" alt="">
+          <img class="gallery_img" src="static/image/our-gallery-img5.jpg" alt="">
+          <img class="gallery_img" src="static/image/our-gallery-img6.jpg" alt="">
+          <img class="gallery_img" src="static/image/our-gallery-img7.jpg" alt="">
+          <img class="gallery_img" src="static/image/our-gallery-img8.jpg" alt="">
+          <img class="gallery_img" src="static/image/our-gallery-img9.jpg" alt="">
+          <img class="gallery_img" src="static/image/our-gallery-img10.jpg" alt="">
+        </article>
+      </div>
+    </section>
+    <section class="time_line section important_section" id="time__line" data-title="Time Line">
+      <div class="container">
+        <h2 class="timeline_title">Time Line</h2>
+        <article class="timeline_box">
+          <ul class="timeline_list">
+            <li class="timeline_item">
+              <span class="item_date">06/01/2025</span>
+              <h3 class="item_title">First Project</h3>
+              <p class="item_parag">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, dolorem? Modi
+                excepturi, ad obcaecati omnis odit molestiae quo mollitia ipsa deleniti, enim vero, illo recusandae
+                commodi. Nobis perferendis provident sed.</p>
+            </li>
+            <li class="timeline_item">
+              <span class="item_date">06/01/2025</span>
+              <h3 class="item_title">Second Project</h3>
+              <p class="item_parag">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, dolorem? Modi
+                excepturi, ad obcaecati omnis odit molestiae quo mollitia ipsa deleniti, enim vero, illo recusandae
+                commodi. Nobis perferendis provident sed.</p>
+            </li>
+            <li class="timeline_item">
+              <span class="item_date">06/01/2025</span>
+              <h3 class="item_title">Third Project</h3>
+              <p class="item_parag">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, dolorem? Modi
+                excepturi, ad obcaecati omnis odit molestiae quo mollitia ipsa deleniti, enim vero, illo recusandae
+                commodi. Nobis perferendis provident sed.</p>
+            </li>
+            <li class="timeline_item">
+              <span class="item_date">06/01/2025</span>
+              <h3 class="item_title">Forth Project</h3>
+              <p class="item_parag">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, dolorem? Modi
+                excepturi, ad obcaecati omnis odit molestiae quo mollitia ipsa deleniti, enim vero, illo recusandae
+                commodi. Nobis perferendis provident sed.</p>
+            </li>
+            <li class="timeline_item">
+              <span class="item_date">06/01/2025</span>
+              <h3 class="item_title">Fifth Project</h3>
+              <p class="item_parag">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, dolorem? Modi
+                excepturi, ad obcaecati omnis odit molestiae quo mollitia ipsa deleniti, enim vero, illo recusandae
+                commodi. Nobis perferendis provident sed.</p>
+            </li>
+            <li class="timeline_item">
+              <span class="item_date">06/01/2025</span>
+              <h3 class="item_title">Sixth Project</h3>
+              <p class="item_parag">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, dolorem? Modi
+                excepturi, ad obcaecati omnis odit molestiae quo mollitia ipsa deleniti, enim vero, illo recusandae
+                commodi. Nobis perferendis provident sed.</p>
+            </li>
+          </ul>
+        </article>
+      </div>
+    </section>
+    <section class="features section important_section" id="features" data-title="Features">
+      <div class="container">
+        <h2 class="features_title">Our Features</h2>
+        <article class="features_box">
+          <ul class="features_list">
+            <li class="features_item">
+              <div class="img_box">
+                <img class="item_img" src="static/image/features-img1.png" alt="">
+              </div>
+              <h3 class="item_title">Development</h3>
+              <p class="item_parag">We are professional marketers, we will do anything you imagine in no time.</p>
+            </li>
+            <li class="features_item">
+              <div class="img_box">
+                <img class="item_img" src="static/image/features-img2.png" alt="">
+              </div>
+              <h3 class="item_title">Designing</h3>
+              <p class="item_parag">We are professional marketers, we will do anything you imagine in no time.</p>
+            </li>
+            <li class="features_item">
+              <div class="img_box">
+                <img class="item_img" src="static/image/features-img3.png" alt="">
+              </div>
+              <h3 class="item_title">Teaching</h3>
+              <p class="item_parag">We are professional marketers, we will do anything you imagine in no time.</p>
+            </li>
+            <li class="features_item">
+              <div class="img_box">
+                <img class="item_img" src="static/image/features-img4.png" alt="">
+              </div>
+              <h3 class="item_title">Managment</h3>
+              <p class="item_parag">We are professional marketers, we will do anything you imagine in no time.</p>
+            </li>
+            <li class="features_item">
+              <div class="img_box">
+                <img class="item_img" src="static/image/features-img5.png" alt="">
+              </div>
+              <h3 class="item_title">Communication</h3>
+              <p class="item_parag">We are professional marketers, we will do anything you imagine in no time.</p>
+            </li>
+            <li class="features_item">
+              <div class="img_box">
+                <img class="item_img" src="static/image/features-img6.png" alt="">
+              </div>
+              <h3 class="item_title">Marketing</h3>
+              <p class="item_parag">We are professional marketers, we will do anything you imagine in no time.</p>
+            </li>
+          </ul>
+        </article>
+      </div>
+    </section>
+    <section class="testimonials section important_section" id="testimonials" data-title="Testimonials">
+      <div class="container">
+        <h2 class="testimonials_title">Testimonials</h2>
+        <article class="testimonials_box">
+          <ul class="testimonials_list">
+            <li class="testimonials_item">
+              <div class="item_personal">
+                <img class="item_img" src="static/image/testimonials-img1.png" alt="">
+                <div class="item_info">
+                  <h3 class="item_title">Ahmed</h3>
+                  <span class="item_work">CEO at Company</span>
+                </div>
+              </div>
+              <p class="item_parag">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi vitae nostrum
+                consequatur excepturi nihil. Corporis ipsum deserunt quasi tempora placeat ad labore quos explicabo
+                eveniet. Obcaecati molestias mollitia deserunt nam.</p>
+            </li>
+            <li class="testimonials_item">
+              <div class="item_personal">
+                <img class="item_img" src="static/image/testimonials-img2.png" alt="">
+                <div class="item_info">
+                  <h3 class="item_title">Mohammed</h3>
+                  <span class="item_work">CEO at Company</span>
+                </div>
+              </div>
+              <p class="item_parag">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi vitae nostrum
+                consequatur excepturi nihil. Corporis ipsum deserunt quasi tempora placeat ad labore quos explicabo
+                eveniet. Obcaecati molestias mollitia deserunt nam.</p>
+            </li>
+            <li class="testimonials_item">
+              <div class="item_personal">
+                <img class="item_img" src="static/image/testimonials-img3.png" alt="">
+                <div class="item_info">
+                  <h3 class="item_title">Mostafa</h3>
+                  <span class="item_work">CEO at Company</span>
+                </div>
+              </div>
+              <p class="item_parag">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi vitae nostrum
+                consequatur excepturi nihil. Corporis ipsum deserunt quasi tempora placeat ad labore quos explicabo
+                eveniet. Obcaecati molestias mollitia deserunt nam.</p>
+            </li>
+            <li class="testimonials_item">
+              <div class="item_personal">
+                <img class="item_img" src="static/image/testimonials-img4.png" alt="">
+                <div class="item_info">
+                  <h3 class="item_title">Khaled</h3>
+                  <span class="item_work">CEO at Company</span>
+                </div>
+              </div>
+              <p class="item_parag">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi vitae nostrum
+                consequatur excepturi nihil. Corporis ipsum deserunt quasi tempora placeat ad labore quos explicabo
+                eveniet. Obcaecati molestias mollitia deserunt nam.</p>
+            </li>
+            <li class="testimonials_item">
+              <div class="item_personal">
+                <img class="item_img" src="static/image/testimonials-img5.png" alt="">
+                <div class="item_info">
+                  <h3 class="item_title">Shady</h3>
+                  <span class="item_work">CEO at Company</span>
+                </div>
+              </div>
+              <p class="item_parag">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi vitae nostrum
+                consequatur excepturi nihil. Corporis ipsum deserunt quasi tempora placeat ad labore quos explicabo
+                eveniet. Obcaecati molestias mollitia deserunt nam.</p>
+            </li>
+          </ul>
+        </article>
+      </div>
+    </section>
+    <section class="contact_us section important_section" id="contact__us" data-title="Contact Us">
+      <div class="container">
+        <h2 class="contact_us_title">Contact Us</h2>
+        <article class="contact_us_box">
+          <form class="contact_us_form" action="">
+            <div class="left_inputs_box">
+              <input class="left_inputs" type="text" placeholder="Your Name" name="username">
+              <input class="left_inputs" type="text" placeholder="Your Phone" name="phone">
+              <input class="left_inputs" type="email" placeholder="Your Email" name="email">
+              <input class="left_inputs" type="text" placeholder="Subject" name="subject">
+            </div>
+            <div class="right_inputs_box">
+              <textarea class="right_textarea" placeholder="Your Message" name="message"></textarea>
+              <input class="right_submit" type="submit" value="Send">
+            </div>
+          </form>
+        </article>
+      </div>
+    </section>
+  </main>
+  <!-- end main -->
+
+  <!-- start footer -->
+  <footer class="main_footer">
+    <div class="container">
+      <img class="footer_img" src="static/image/logo.png" alt="">
+    </div>
+    <div class="copy_right">©2025 - Made by <span class="copy_right_color">Mazen Hashem</span>, All Rights Reserved</div>
+  </footer>
+  <!-- end footer -->
+
+  <script src="dynamic/index.js"></script>
+</body>
+
+</html>
